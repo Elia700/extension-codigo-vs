@@ -1,0 +1,31 @@
+{
+  "name": "elias-ext",
+  "displayName": "elias.ext",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "extension-elias",
+        "uiTheme": "vs-dark",
+        "path": "./themes/extension-elias-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icons/icono",
+  "author": {
+  "name": "Elias Poma",
+  "email": "elias.poma@unl.edu.ec"
+  },
+  "repository": {
+  "url": "https://github.com/Elia700/extension-codigo-vs.git",
+  "type": "git"
+  },
+  "publisher": "codigo-tecsup"
+}
